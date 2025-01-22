@@ -103,6 +103,7 @@ img{
 {
   width: 100%;
 }
+
 /* end utilities */
 .debug{
 .container-lg{
@@ -238,9 +239,11 @@ hr{
     .active{
         border: 3px solid var(--db-primary);
     }
+    
     .row{
         margin-top: 3rem;
         align-items: stretch;
+        
         .col-4{
             padding: 1.5rem;
         }
@@ -260,6 +263,10 @@ hr{
     .card-content{
         padding: 1.5rem;
         font-size: .7rem;
+        h3{
+            font-size: 1.2rem;
+
+        }
         .price{
             font-size: .8rem;
             font-weight: bold;
@@ -296,6 +303,25 @@ hr{
         }
         .fa-check{
             color: var(--db-primary);
+        }
+    }
+    .left-content{
+        width: 70%;
+        p{
+            margin-top: 3rem;
+            font-size: .8rem;
+        }
+        
+    }
+    .right-content{
+        width: 30%;
+        .main-btn{
+            margin: 0;
+        }
+    }
+    .last-card-wrapper{
+        .row{
+            margin-top: 0;
         }
     }
 
