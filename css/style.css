@@ -103,10 +103,39 @@ img{
   width: 100%;
 }
 /* end utilities */
+.debug{
+.container-lg{
+    height: 22rem;
+    background-color: yellow;
+    h1{
+        background-color: green;
+        width: 100%;
+        height: 10rem;
+    }
+    .d-flex{
+        background-color: red;
+        .col-4{
+            background-color: pink;
+            min-height: 14rem;
+
+        }
+        .col-8{
+            background-color: gray;
+        }
+    }
+}
+}
+
+/* nav region */
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
 nav{
     width: 100%;
     background-color: var(--db-light);
-    position: fixed;
+    
     justify-content: space-between;
     box-shadow: 0 0 3px lightblue;
     img, span{
@@ -137,5 +166,14 @@ nav{
         }
     }
 }
+/* end nav region */
+/* main reegion */
+#hero{
+   padding: 4rem;
+    width: 100%;
+    background-color: var(--db-accent);
+}
+/* end main region */
+
 
 
