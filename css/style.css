@@ -353,7 +353,61 @@ hr{
 
     }
 }
+#db-business{
+    margin-top: 5rem;
+    h2{
+        margin-bottom: 2rem;
+    }
+    h3{
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: .8rem;
+    }
+}
+#discover-more{
+    margin-top: 5rem;
+    h2{
+        margin-bottom: 2rem;
+    }
+    a{
+        font-size: .8rem;
+    }
+}
 /* end main region */
-
+/* footer region */
+footer{
+    width: 100%;
+    background-color: var(--db-dark);
+    color: var(--db-light);
+    padding: 2rem 0;
+    h4{
+        margin-bottom: 1.5rem;
+    }
+    a{
+        text-decoration: none;
+        color: var(--db-light);
+        display: block;
+        font-size: .8rem;
+        margin-bottom: .5rem;
+    }
+    hr{
+        border: .7px solid #f3f2f2;
+        width: 20%;
+        margin: 0;
+        text-align: start;
+        margin-top: 3rem;
+    }
+    #language-selector{
+        margin-top: 1.5rem;
+        font-size: .8rem;
+        gap: .3rem;
+        color: gray;
+        .fa-caret-down{
+            rotate: 180deg;
+        }
+    }
+}
+/* end footer region */
 
 
