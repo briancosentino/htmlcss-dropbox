@@ -149,6 +149,9 @@ nav{
         align-items: center;
         
     }
+    span.nav-link{
+        border-bottom: 1px solid transparent;
+    }
     span.nav-link:hover{
         border-bottom: 1px solid var(--db-dark);
     }
@@ -173,12 +176,7 @@ nav{
     background-color: var(--db-primary);
     padding: .4rem .8rem;
     border: none;
-    
-    a{
-        color: var(--db-light);
-        text-decoration: none;
-        
-    }
+    color: var(--db-light);
 }
 /* end nav region */
 /* main reegion */
@@ -377,6 +375,7 @@ hr{
 /* end main region */
 /* footer region */
 footer{
+    margin-top: 6rem;
     width: 100%;
     background-color: var(--db-dark);
     color: var(--db-light);
@@ -409,5 +408,13 @@ footer{
     }
 }
 /* end footer region */
+/* effects */
+button.main-btn:hover{
+    background-color: rgb(131, 133, 251);
+}
+button.ghost-btn:hover{
+   font-weight: 350;
+}
+/* end effects */
 
 
